@@ -1,0 +1,15 @@
+[
+  {
+    "id": "env",
+    "type": "deploy_env",
+    "env_id": "grafana-example",
+    "sandbox_type": "local"
+  },
+  {
+    "id": "serve",
+    "type": "env_outcome_verifier",
+    "env_id": "grafana-example",
+    "file_artifact_id": "check_grafana-example",
+    "verifier_id": "serve"
+  }
+]
